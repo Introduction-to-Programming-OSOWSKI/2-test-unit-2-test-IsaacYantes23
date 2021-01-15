@@ -33,7 +33,7 @@
     {
       "name": "code4",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest tests.py:test_code4",
+      "run": "pytest tests.py::test_code4",
       "input": "",
       "output": "",
       "comparison": "included",
